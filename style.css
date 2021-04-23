@@ -367,3 +367,59 @@ blockquote span{
 
 
 /*media queries */
+
+@media only screen and (max-width: 678px){
+
+}
+
+@media only screen and (max-width: 800px){
+
+}
+
+@media only screen and (max-width: 992px){
+ /* header and footer */
+ .nav-section{
+     display:flex;
+     justify-content:space-between;
+ }
+ .navBtn{
+     display: none;
+ }
+ .brand-and-navBtn{
+     flex:0 0 10%;
+     background: none;
+ }
+ .top-nav{
+     flex:0 1 80%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     transition: transform 0s ease;
+     transform: translateY(0);
+     background: transparent;
+ }
+ .top-nav ul{
+     display: flex;
+ }
+ .top-nav ul li{
+     margin-right: 30px;
+     margin-left: 30px;
+ }
+ .about{
+     margin-top: 0;
+ }
+ .search-icon{
+     flex:0 0 10%;
+     display:block;
+     
+ }
+}
+
+@media only screen and (max-width: 1000px){
+
+}
+
+@media only screen and (max-width: 1200px){
+
+}
+
