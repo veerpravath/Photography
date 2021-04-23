@@ -346,5 +346,24 @@ blockquote span{
     outline:0;
     color:#fff;
 }
-
+.subs button{
+    flex:30%;
+    font-size: 16px;
+    padding:15px 0;
+    font-weight: bold;
+    background:greenyellow;
+    border:none;
+    cursor:pointer;
+    transition:var(--transition);
+}
+.subs button:hover{
+    color:#fff;
+}
+.footer > p{
+    text-align:center;
+    font-size:14px;
+}
 /** end of footer**/
+
+
+/*media queries */
