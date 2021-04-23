@@ -147,6 +147,58 @@ h1,h2,h3,h4,h5,h6,p{
     font-size:48px;
     text-align:center;
     margin-bottom: 35px;
-    color:greenyellow
+    color:greenyellow;
+}
+.about-content h3{
+    color: #fff;
+    font-size: 30px;
+    font-weight: 100;
+    background: rgba(225, 255,255, 0);
+    width:400px;
+    margin:35px auto;
+    text-align:center;
+}
+blockquote{
+     font-size: 20px;
+     font-weight: 300;
+     opacity: 0.9;
+     width:60vw;
+     margin:45px auto 15px auto;
+     text-align:center;
+}
+blockquote span{
+    font-size: 14px;
+    text-transform: uppercase;
+    color: greenyellow;
+    font-weight: 300;
+    letter-spacing:5px;
+    display:block;
+}
+.social-icons{
+    width:350PX;
+    margin:40px auto 0 auto;
+    padding-bottom:30px ;
+}
+.social-icons ul a{
+    color:#fff;
+    font-family: 30px;
+    display:block;
+    width:50px;
+    height:50px;
+    border:1px solid #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition:var(--transition);
+    border-radius: 50%;
+}
+.social-icons ul{
+    display:flex;
+    justify-content: space-around;
+}
+.social-icons a:hover{
+    background:rgb(139, 224, 90);
+    border-color: goldenrod;
+
 }
 /* End of header */
