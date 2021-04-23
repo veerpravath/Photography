@@ -303,3 +303,23 @@ blockquote span{
 .insta-imgs > div:hover .icon-overlay{
     opacity:1;
 }
+
+/** footer styling **/
+
+.footer{
+    background: #000;
+    color:#fff;
+    padding:40px 0;
+    text-align: center;
+}
+.footer-container > div{
+    margin:40px 0;
+}
+.footer-container h2{
+    color:greenyellow;
+    font-size: 30px;
+    font-weight: 500;
+    letter-spacing: 5px;
+}
+
+/** end of footer**/
