@@ -707,7 +707,7 @@ blockquote span{
         font-size: 14px;
         padding: 8px 0;
     }
-   .work-imgs{
+    .work-imgs{
         grid-template-columns: 1fr;
         grid-row-gap: 20px;
     }
